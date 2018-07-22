@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Practice</title>
+</head>
+
+<body>
+    <script>
+        // Scale the Array - Given an array arr and a number num, multiply all values in arr by num, 
+        // and return the changed array arr.  For example, scaleArray([1,2,3],3) should return [3,6,9].
+        function scaleArray(arr, num) {
+            console.log("Old array: ", arr);
+            for (var i = 0; i < arr.length; i++) {
+                arr[i] = arr[i] * num;
+            }
+            console.log("New array: ", arr);
+            return arr;
+        }
+
+        scaleArray([1, 2, 3], 3);
+    </script>
+</body>
+
+</html>
